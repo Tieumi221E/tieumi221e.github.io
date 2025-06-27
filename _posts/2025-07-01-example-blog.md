@@ -14,7 +14,7 @@ Explain the core idea here.
 
 You can include images like this:
 
-![Example Image](/assets/images/example-placeholder.png)
+
 
 ## Section 3: Formula
 
