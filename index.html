@@ -5,33 +5,40 @@ title: "Home"
 
 <section>
   <h1>About Me</h1>
-  <p>I’m a Master’s student at Kyoto University (Graduate School of Informatics, System Science), focusing on geometric properties of embedding spaces and large language model interpretability.</p>
+  <p>
+    I'm a master's student at Kyoto University (Graduate School of Informatics, System Science), with a background in pure mathematics.
+    My current research focuses on LLM.
+  </p>
 </section>
 
 <section>
   <h2>Research & Projects</h2>
   <ul>
-    <li><strong>Geometry of Word Embeddings:</strong> Graph-based geodesics, local dimension, curvature estimation (FastText, PyTorch)</li>
-    <li><strong>Mini LLM Fine-tuning:</strong> Training novel-style generation & closed QA systems</li>
-    <li><strong>Image-assisted Language Modeling:</strong> Integrating CLIP embeddings for geometry-guided token space exploration</li>
-    <li>GitHub: <a href="https://github.com/Tieumi221E" target="_blank">Tieumi221E</a></li>
+    <li><strong>GitHub Portfolio:</strong> <a href="https://github.com/Tieumi221E" target="_blank">github.com/Tieumi221E</a></li>
   </ul>
 </section>
 
 <section>
-  <h2>Learning Blog</h2>
+  <h2>Recent Blog Posts</h2>
   <ul>
     {% for post in site.posts limit:5 %}
-      <li><a href="{{ post.url }}">{{ post.title }}</a> - <em>{{ post.date | date: "%Y-%m-%d" }}</em></li>
+      <li>
+        <a href="{{ post.url }}">{{ post.title }}</a>
+        <span style="color: #888;">({{ post.date | date: "%Y-%m-%d" }})</span>
+      </li>
     {% endfor %}
   </ul>
-  <a href="/blog">See all posts →</a>
+  <p><a href="/blog" style="padding: 6px 12px; border: 1px solid #ccc; border-radius: 4px;">→ View All Posts</a></p>
 </section>
 
 <section>
   <h2>Contact</h2>
   <ul>
-    <li>Email: your.email@example.com</li>
+    <li>Email: <a href="mailto:tieumi221e@google.com">tieumi221e@google.com</a></li>
     <li>GitHub: <a href="https://github.com/Tieumi221E" target="_blank">Tieumi221E</a></li>
   </ul>
 </section>
+
+<footer>
+  <p style="font-size: 0.8em; color: #888;">Last updated: {{ site.time | date: "%Y-%m-%d" }}</p>
+</footer>
