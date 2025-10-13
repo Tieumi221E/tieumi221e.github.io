@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Presentation Slides: Masked Diffusion Language Models & LLaDA"
-date: 2025-07-08
+date: 2025-07-04
 ---
 
 Here is the slide from my presentation on Masked Diffusion Language Models, with a focus on the LLaDA model.
