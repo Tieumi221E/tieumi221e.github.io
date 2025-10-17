@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Presentation Slides: Masked Diffusion Language Models & LLaDA"
+title: "Presentation Slides: Challenging the Autoregressive Paradigm"
 date: 2025-07-04
 ---
 
